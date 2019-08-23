@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" congtent="ie=edge">
+    <title>Разработки</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+<header class="header-mobile">
+    <div class="logo-part">
+        <a class="menu-btn">
+            <span></span>
+        </a>
+        <a class="logo-wrapper" href="./index.html">
+            <img class="logo-part__logo" src="./assets/images/logo.svg" alt="">
+        </a >
+        <div class="modal-menu">
+            <ul class="main-list">
+                <li><a href="./about-company.html">О КОМПАНИИ</a></li>
+                <li class="first-sub-list-opener"><a>ВОЗМОЖНОСТИ</a></li>
+                <ul class="sub-list sub-list1">
+                    <li><a href="possibilities.html">Технологии</a></li>
+                    <li><a href="possibilities.html">Преимущества</a></li>
+                </ul>
+                <li class="second-sub-list-opener"><a>ПРИМЕНЕНИЕ</a></li>
+                <ul class="sub-list sub-list2">
+                    <li><a href="./usage-prom-and-building.html">Промышленность и строительство</a></li>
+                    <li><a href="./usage-safety.html">Общественная безопасность и аналитика</a></li>
+                    <li><a href="./usage-educational-houses.html">Учебные заведения</a></li>
+                    <li><a href="./usage-events.html">Мероприятия</a></li>
+                    <li><a href="./usage-hotels.html">Гостиничный бизнес</a></li>
+                    <li><a href="./usage-smart-house.html">Умный дом</a></li>
+                    <li><a href="./usage-buisness.html">Бизнес и персонал</a></li>
+                    <li><a href="./usage-smart-city.html">Умный город</a></li>
+                    <li><a href="./usage-retail.html">Ритейл</a></li>
+                </ul>
+                <li><a href="development.html">РАЗРАБОТКА</a></li>
+                <li><a href="portfolio.html">ПОРТФОЛИО</a></li>
+                <li><a href="#contacts">КОНТАКТЫ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mail-part">
+        <a href="#" class="js-open-modal" data-modal="1">   <img src="./assets/images/envelope.svg" alt=""></a>
+    </div>
+</header>
+
+<header class="header-desktop">
+    <div class="logo-part">
+        <a href="index.html"><img src="./assets/images/logo.svg" alt=""></a>
+    </div>
+    <div class="empty-place">
+
+    </div>
+
+    <div class="links-part">
+        <div class="mail-part">
+            <a href="#" class="js-open-modal" data-modal="1">   <img src="./assets/images/envelope.svg" alt=""></a>
+        </div>
+        <ul>
+            <li><a class="active-link" href="./about-company.html">О КОМПАНИИ</a></li>
+            <li class="link2"><a class="active-link " href="./possibilities.html">ВОЗМОЖНОСТИ</a>
+                <div class="sub-link sub-link1">
+                    <a href="./possibilities.html">Технологии</a>
+                    <a href="./possibilities.html">Разработки</a>
+                </div>
+            </li>
+            <li class="link3"><a class="active-link" style="cursor: default" href="#">ПРИМЕНЕНИЕ</a>
+                <div class="sub-link sub-link2">
+                    <a href="./usage-prom-and-building.html">Промышленность и строительство</a>
+                    <a href="./usage-safety.html">Общественная безопасность <br> и аналитика</a>
+                    <a href="./usage-educational-houses.html">Учебные заведения</a>
+                    <a href="./usage-events.html">Мероприятия</a>
+                    <a href="./usage-hotels.html">Гостиницы, отели, хостелы</a>
+                    <a href="./usage-smart-house.html">Умный дом</a>
+                    <a href="./usage-buisness.html">Бизнес и персонал</a>
+                    <a href="./usage-smart-city.html">Умный город</a>
+                    <a href="./usage-retail.html">Ритейл</a>
+                </div>
+            </li>
+            <li class="link4"><a class="active-link" href="./development.html">РАЗРАБОТКА</a>
+                <div class="sub-link sub-link3">
+                    <a href="./development.html">Собственные разработки</a>
+                    <a href="./development.html">R&D</a>
+                </div>
+            </li>
+            <li class="link5"><a class="active-link" href="./portfolio.html">ПОРТФОЛИО</a>
+                <div class="sub-link sub-link4">
+                    <a href="./portfolio.html">Видеоролики</a>
+                    <a href="./portfolio.html">Наши заказчики</a>
+                    <a href="./portfolio.html">Дополнительные <br> материалы</a>
+                </div>
+            </li>
+            <li><a class="active-link"  href="#contacts">КОНТАКТЫ</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="section-main-possibilities">
+    <img class="cars" src="./assets/images/dev.jpg" alt="">
+    <div class="short-desc">
+        <div class="paragraph">
+            <p>R&D<br> OMV — исследование и разработка индивидульного решения по уникальным идеям заказчика</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal" data-modal="1">
+    <div class="modalContent">
+        <!--   Svg иконка для закрытия окна  -->
+        <img src="./assets/images/cancel.svg" class="modal__cross js-modal-close">
+        <p class="modal__name">Ваше имя<span>*</span></p>
+        <input style="width: 85%;" type="text">
+        <p class="modal__ink">Название организации</p>
+        <input style="width: 85%" type="text">
+        <p class="modal__ink">Ваша почта<span>*</span></p>
+        <input style="width: 85%" type="tex">
+        <p class="modal__tel">Контактный номер телефона</p>
+        <input style="width: 85%" type="tel" name="tel"
+               pattern="2[0-9]{3}-[0-9]{3}">
+        <p class="text">Ваш вопрос<span>*</span></p>
+        <input style="padding-bottom: 35px; width: 85%;" type="text">
+        <p style="color:grey; opacity: 0.9;"><input type="checkbox" name="option1" value="a1" checked>- согласен на обработку моих персональных данных</p>
+    </div>
+    <button style="margin-top:15px;" class="sendButton">ОТПРАВИТЬ</button>
+</div>
+<div class="overlay js-overlay-modal"></div>
+<h2 style="display: none;" class="h2-desktop h2Func">ФУНКЦИОНАЛ</h2>
+<div style="margin-top: 20px;" class="section-functioanl">
+    <h1 class="mobile-only">ФУНКЦИОНАЛ</h1>
+    <div class="func-container">
+        <div class="func">
+            <img src="./assets/images/1d.svg" alt="">
+            <p>Обнаружение людей: <br> распознавание и выделение их в кадре</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/2d.svg" alt="">
+            <p>Обнаружение личности <br> человека по биометрическим данным с использованием базы данных лиц</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/3d.svg" alt="">
+            <p>Обнаружение животных: <br> распознавание и выделение кошек и собак в кадре  </p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/4d.svg" alt="">
+            <p>Обнаружение движения в кадре: <br> выделение областей, где определяются подвижные объекты в заданной области видеопотока</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/5d.svg" alt="">
+            <p>Обнаружение движения <br>только заданных объектов</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/6d.svg" alt="">
+            <p>Модуль охраны труда: <br> распознавание атрибутов(каски, халаты, униформка) на человеке для контроля допуска на рабочие места</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/7d.svg" alt="">
+            <p>Распознавание транспортных средств: <br> выделение ТС в кадре и распознавание его типа</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/8d.svg" alt="">
+            <p>Индентификация номера ТС <br> и сравнение его с базой данных</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/9d.svg" alt="">
+            <p>Обнаружение пересечения периметра: <br> выставление зон на кадре, обнаружение нахождения и пересечения этих зон</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/10d.svg" alt="">
+            <p>Слежение за персоналом, <br> позволяющее определять время нахождения сотрудника на рабочем месте, а также определять объекты его внимания по трекингу глаз </p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/11d.svg" alt="">
+            <p>Трекинг человека на сети камер: <br> позволяет отслеживать перемещение объекта и фиксировать время его появления на том или ином месте</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/12d.svg" alt="">
+            <p>Поиск человека по лицу: <br> позволяет находить человека на фотографии на той или иной камере как в режиме реального времени, так и по архивным видео</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/13d.svg" alt="">
+            <p>Определение  наличия объекта в заданной области: <br> позволяет отслеживать заполняемость мест, например загруженность парковки, складских полок или обнаружение бесхозного предмета</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/14d.svg" alt="">
+            <p>Расчет транспортных или человеческих потоков: <br> подсчет человеческих объектов, пересекающих виртуальную границу, с учетом направления их движения</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/15d.svg" alt="">
+            <p>Детектор изменения сцены: <br> обнаружения засвечивания камеры, отключения освящения</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/16d.svg" alt="">
+            <p>Детектор оставленных предметов<br>с определением времени появления и выделение предмета в кадре</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/17d.svg" alt="">
+            <p>Детектор заданного объекта, <br>при котором нейронная сеть обучается для определения любого необходимого предмета</p>
+        </div>
+        <div class="func">
+            <img src="./assets/images/18d.svg" alt="">
+            <p>Получение параметров заданных объектов, <br> таких как цвет, форма, расположение, количество и прочее</p>
+        </div>
+    </div>
+    <h2 style="display: none;" class="h2-desktop h2RnD">R&D</h2>
+    <h1 class="r-and-d mobile-only">R&D</h1>
+    <div class="r-d-desc mobile-only">
+        <p>Наша команда занимается R&D проектами с 2014 года и находится в Санкт-Петербурге Мы не боимся и готовы реализовывать
+            самые нестандартные идеи специально для Вас. Наш опыт позволяет нам подстроиться под интересы заказчика и подобрать индивидуальный способ решения задачи</p>
+    </div>
+
+    <img class="omega-lab mobile-only" src="./assets/images/omaga-lab-logo.png" alt="">
+    <img src="./assets/images/man-with-a-tablet.jpg" class="mobile-only" alt="">
+    <div class="btn-learn-more write-us mobile-only"><a style="text-decoration: none; color: black;" href="#" class="js-open-modal" data-modal="1">НАПИСАТЬ НАМ</a></div>
+    <div class="long-desc mobile-only">
+        <p>Команда создателей Omega Lab ругелярно принимает участие и проявляет себя во всероссийских конкурсах и выставках
+        , набирается опыта и повышает уровень мастерства, в том числе и за рубежом. В 2017 году команда приняла участие
+        в хакатоне Альфа-банка на разработку нейронных сетей. Участвовала в Берлинском хакатоне BCX2018 (разработка
+        умной дрели) в 2018 году. Omega Lab победила в конкурсе по программированию манипулятора Kawasaki в 2018 году
+        и стала лоуреатом премии "Цифровые вершины" в номинации "Лучший urbantech-стартап" 2018 года. Участвовала
+        в выставках "Дни 1С в Газпромнефть" в 2019 году и в IX международном форуме "Безопасность на транспорте"</p>
+    </div>
+
+
+
+    <div class="r-n-d-container" style="display: none";>
+        <div class="left-part">
+            <img class="omega-lab" src="./assets/images/omaga-lab-logo.png" alt="">
+            <div class="white-screen">
+                <p>Команда создателей Omega Lab ругелярно принимает участие и проявляет себя во всероссийских конкурсах и выставках
+                    , набирается опыта и повышает уровень мастерства, в том числе и за рубежом. В 2017 году команда приняла участие
+                    в хакатоне Альфа-банка на разработку нейронных сетей. Участвовала в Берлинском хакатоне BCX2018 (разработка
+                    умной дрели) в 2018 году. Omega Lab победила в конкурсе по программированию манипулятора Kawasaki в 2018 году
+                    и стала лоуреатом премии "Цифровые вершины" в номинации "Лучший urbantech-стартап" 2018 года. Участвовала
+                    в выставках "Дни 1С в Газпромнефть" в 2019 году и в IX международном форуме "Безопасность на транспорте"</p>
+            </div>
+            <div class="dark-screen">
+                <p>Наша команда занимается R&D проектами с 2014 года и находится в Санкт-Петербурге Мы не боимся и готовы реализовывать
+                    самые нестандартные идеи специально для Вас. Наш опыт позволяет нам подстроиться под интересы заказчика и подобрать индивидуальный способ решения задачи</p>
+            </div>
+        </div>
+        <div class="right-part">
+            <img src="./assets/images/man-with-a-tablet.jpg" alt="">
+            <div class=" write-us" style="color: black; position: relative; bottom: 40px; right: 100px;"><a  style="text-decoration: none; color: black;" href="#" class="js-open-modal" data-modal="1">НАПИСАТЬ</a></div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="section-contacts" id="contacts">
+    <div class="head-container">
+        <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
+        <img class="head-container__dotts d-head-container__dotts " src="./assets/images/Точки.svg" alt="">
+        <h2 class="while-no-empty mobile-only">КОНТАКТЫ</h2>
+        <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
+        <img class="head-container__dotts d-head-container__dotts " src="./assets/images/Точки.svg" alt="">
+    </div>
+    <div class="basement">
+        <h2 style="display: none" class="h2Contacts h2-desktop">КОНТАКТЫ</h2>
+        <div class="image-part">
+            <img class="mobile-only" src="./assets/images/footer-image.jpg" alt="">
+            <img class="footerImgDesc" style="display: none" src="./assets/images/1con.jpg" alt="">
+        </div>
+        <div class="footer-part">
+
+
+
+            <div class="left-part">
+                <div class="contact">
+                    <p>Руководитель проекта
+                        <br>
+                        <a href="">soka@gkomega.ru</a>
+                        <br>
+                        <a href="">+7 (921) 913-26-69</a>
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>Технический директор
+                        <br>
+                        <a href="">kobak@gkomega.ru</a>
+                        <br>
+                        <a href="">+7 (904) 637-01-37</a>
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>191124, Санкт-Петербург, <br> Синопская набережная, <br class="-display-block"> дом 52</p>
+                </div>
+                <div class="social-networks-links">
+                    <!-- <a href=""><img src="./assets/images/vk.svg" alt=""></a>-->
+                    <a href=""><img src="./assets/images/instagram.svg" alt=""></a>
+                    <a href=""><img src="./assets/images/twitter.svg" alt=""></a>
+                    <a href=""><img src="./assets/images/youtube.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="right-part">
+                <p class="green-sign">НАШИ ПАРТНЕРЫ</p>
+                <div class="green-square-wrapper">
+                    <div class="green-square"></div>
+                    <p>Группа компаний <br> «ОМЕГА» </p>
+                </div>
+                <div class="green-square-wrapper">
+                    <div class="green-square"></div>
+                    <p>Донской <br> Государственный <br> Технический<br> Университет</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    /*function devEmpty() {
+        if (document.documentElement.scrollTop > document.getElementsByClassName('section-functioanl')[0].offsetTop - 170) {
+            document.getElementsByClassName('empty-place')[0].innerHTML = '<p>ФУНКЦИОНАЛ</p>';
+        }
+        if (document.documentElement.scrollTop < document.getElementsByClassName('section-functioanl')[0].offsetTop -170 ) {
+            document.getElementsByClassName('empty-place')[0].innerHTML = '<p></p>';
+        }
+        if (document.documentElement.scrollTop > document.getElementsByClassName('r-n-d-container')[0].offsetTop - 150 ) {
+            document.getElementsByClassName('empty-place')[0].innerHTML = '<p>R&D</p>';
+        }
+        if (document.documentElement.scrollTop > document.getElementsByClassName('section-contacts')[0].offsetTop - 110) {
+            document.getElementsByClassName('empty-place')[0].innerHTML = '<p>КОНТАКТЫ</p>';
+        }
+    }*/
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="./assets/scripts/modal.js"></script>
+<script src="./assets/scripts/script.js"></script>
+</body>
+</html>

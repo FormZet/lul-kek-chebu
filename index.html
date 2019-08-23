@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OMV</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body onscroll="emptyarrow()">
+<div class="max-width-container">
+<header class="header-mobile">
+    <div class="logo-part">
+        <a class="menu-btn">
+            <span></span>
+        </a>
+        <a class="logo-wrapper" href="./index.html">
+            <img class="logo-part__logo" src="./assets/images/logo.svg" alt="">
+        </a >
+        <div class="modal-menu">
+            <ul class="main-list">
+                <li><a href="./about-company.html">О КОМПАНИИ</a></li>
+                <li class="first-sub-list-opener"><a>ВОЗМОЖНОСТИ</a></li>
+                <ul class="sub-list sub-list1">
+                    <li><a href="possibilities.html">Технологии</a></li>
+                    <li><a href="possibilities.html">Преимущества</a></li>
+                </ul>
+                <li class="second-sub-list-opener"><a>ПРИМЕНЕНИЕ</a></li>
+                <ul class="sub-list sub-list2">
+                    <li><a href="./usage-prom-and-building.html">Промышленность и строительство</a></li>
+                    <li><a href="./usage-safety.html">Общественная безопасность и аналитика</a></li>
+                    <li><a href="./usage-educational-houses.html">Учебные заведения</a></li>
+                    <li><a href="./usage-events.html">Мероприятия</a></li>
+                    <li><a href="./usage-hotels.html">Гостиничный бизнес</a></li>
+                    <li><a href="./usage-smart-house.html">Умный дом</a></li>
+                    <li><a href="./usage-buisness.html">Бизнес и персонал</a></li>
+                    <li><a href="./usage-smart-city.html">Умный город</a></li>
+                    <li><a href="./usage-retail.html">Ритейл</a></li>
+                </ul>
+                <li><a href="development.html">РАЗРАБОТКА</a></li>
+                <li><a href="portfolio.html">ПОРТФОЛИО</a></li>
+                <li><a href="#contacts">КОНТАКТЫ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mail-part">
+
+        <a href="#" class="js-open-modal" data-modal="1"> <img src="./assets/images/envelope.svg" alt=""></a>
+    </div>
+
+</header>
+<header class="header-desktop"  >
+    <div class="logo-part">
+        <a href="index.html"><img src="./assets/images/logo.svg" alt=""></a>
+    </div>
+   <!-- <div class="empty-place">
+
+    </div>-->
+
+    <div class="links-part">
+        <div class="mail-part">
+            <a href="#" class="js-open-modal" data-modal="1"> <img src="./assets/images/envelope.svg" alt=""></a>
+        </div>
+
+        <ul>
+            <li><a class="active-link" href="./about-company.html">О КОМПАНИИ</a></li>
+            <li class="link2"><a class="active-link " href="./possibilities.html">ВОЗМОЖНОСТИ</a>
+                <div class="sub-link sub-link1">
+                    <a href="./possibilities.html">Технологии</a>
+                    <a href="./possibilities.html">Разработки</a>
+                </div>
+            </li>
+            <li class="link3"><a class="active-link" style="cursor: default" href="#">ПРИМЕНЕНИЕ</a>
+                <div class="sub-link sub-link2">
+                    <a href="./usage-prom-and-building.html">Промышленность и строительство</a>
+                    <a href="./usage-safety.html">Общественная безопасность <br> и аналитика</a>
+                    <a href="./usage-educational-houses.html">Учебные заведения</a>
+                    <a href="./usage-events.html">Мероприятия</a>
+                    <a href="./usage-hotels.html">Гостиницы, отели, хостелы</a>
+                    <a href="./usage-smart-house.html">Умный дом</a>
+                    <a href="./usage-buisness.html">Бизнес и персонал</a>
+                    <a href="./usage-smart-city.html">Умный город</a>
+                    <a href="./usage-retail.html">Ритейл</a>
+                </div>
+            </li>
+            <li class="link4"><a class="active-link" href="./development.html">РАЗРАБОТКА</a>
+                <div class="sub-link sub-link3">
+                    <a href="./development.html">Собственные разработки</a>
+                    <a href="./development.html">R&D</a>
+                </div>
+            </li>
+            <li class="link5"><a class="active-link" href="./portfolio.html">ПОРТФОЛИО</a>
+                <div class="sub-link sub-link4">
+                    <a href="./portfolio.html">Видеоролики</a>
+                    <a href="./portfolio.html">Наши заказчики</a>
+                    <a href="./portfolio.html">Дополнительные <br> материалы</a>
+                </div>
+            </li>
+            <li><a class="active-link"  href="#contacts">КОНТАКТЫ</a></li>
+        </ul>
+    </div>
+
+</header>
+
+    <img style="z-index: 16;" alt="" src="./assets/images/next.svg" onclick="prev()" class="prev carousel-switcher">
+    <img style="z-index: 16;" class="carousel-switcher next" onclick="next()" src="./assets/images/next.svg" alt="">
+
+    <div style=" cursor: pointer;" class="arrowTopDiv"></div>
+
+
+<div class="section-main">
+    <div class="h1-container" style="z-index: 16;">
+        <div class="h1-wrapper">
+            <h1 class="main-name">ВИДЕОАНАЛИТИКА OMV</h1>
+        </div>
+        <div class="white-square"></div>
+    </div>
+        <div class="modal" data-modal="1">
+            <div class="modalContent">
+            <!--   Svg иконка для закрытия окна  -->
+            <img src="./assets/images/cancel.svg" class="modal__cross js-modal-close">
+            <p class="modal__name">Ваше имя<span>*</span></p>
+            <input style="width: 85%;" type="text">
+            <p class="modal__ink">Название организации</p>
+            <input style="width: 85%" type="text">
+            <p class="modal__ink">Ваша почта<span>*</span></p>
+            <input style="width: 85%" type="tex">
+            <p class="modal__tel">Контактный номер телефона</p>
+            <input style="width: 85%" type="tel" name="tel"
+                   pattern="2[0-9]{3}-[0-9]{3}">
+            <p class="text">Ваш вопрос<span>*</span></p>
+            <input style="padding-bottom: 35px; width: 85%;" type="text">
+            <p style="color:grey; opacity: 0.9;"><input type="checkbox" name="option1" value="a1" checked>- согласен на обработку моих персональных данных</p>
+            </div>
+            <button style="margin-top:15px;" class="sendButton">ОТПРАВИТЬ</button>
+        </div>
+    <div class="overlay js-overlay-modal"></div>
+
+
+    <img class="mobile-background animated slideInRight" width="100%" id="slider1" src="./assets/images/1.jpg" alt="">
+    <img class="mobile-background animated slideInRight" width="100%" id="slider2" src="./assets/images/2.jpg" alt="">
+    <img class="mobile-background animated slideInRight" width="100%" id="slider3" src="./assets/images/3.jpg" alt="">
+    <img class="mobile-background animated slideInRight" width="100%" id="slider4" src="./assets/images/4.jpg" alt="">
+    <img class="mobile-background animated slideInRight" width="100%" id="slider5" src="./assets/images/5.jpg" alt="">
+    <img class="mobile-background animated slideInRight" width="100%" id="slider6" src="./assets/images/6.jpg" alt="">
+    <img class="mobile-background animated slideInRight" width="100%"  id="slider7" src="./assets/images/7.jpg" alt="">
+<!--    <img class="desktop-background" id="slider1" src="./assets/images/carouselD/1.jpg" alt="">
+    <img class="desktop-background" id="slider2" src="./assets/images/carouselD/2.jpg" alt="">
+    <img class="desktop-background" id="slider3" src="./assets/images/carouselD/3.jpg" alt="">
+    <img class="desktop-background" id="slider4"  src="./assets/images/carouselD/4.jpg" alt="">
+    <img class="desktop-background" id="slider5" src="./assets/images/carouselD/5.jpg" alt="">
+    <img class="desktop-background" id="slider6" src="./assets/images/carouselD/6.jpg" alt="">
+    <img class="desktop-background" id="slider7"  src="./assets/images/carouselD/7.jpg" alt="">
+    <img class="desktop-background"id="slider8"  src="./assets/images/carouselD/8.jpg" alt="">-->
+    <div class="particles">
+        <div onclick="num =0; particleClick()" class="particle"></div>
+        <div onclick="num =1; particleClick()" class="particle"></div>
+        <div onclick="num =2; particleClick()" class="particle"></div>
+        <div onclick="num =3; particleClick()" class="particle"></div>
+        <div onclick="num =4; particleClick()" class="particle"></div>
+        <div onclick="num =5; particleClick()" class="particle"></div>
+        <div onclick="num =6; particleClick()" class="particle"></div>
+    </div>
+</div>
+
+<div class="section-about" id="section-about">
+    <h2 style="display: none;" class="h2-desktop h2About">ОПИСАНИЕ</h2>
+    <div class="container">
+
+        <div class="main-info">
+            <h2 style="margin:25px 0;" class="mobile-only"><span>ОБЩЕЕ </span> ОПИСАНИЕ</h2>
+            <div class="left-part">
+                <img class="dotted-image mobile-only" src="./assets/images/brain.svg" alt="">
+                <img class="dotted-image dotted-imagedesc" style="display: none" src="./assets/images/brainDesc.svg">
+                <div class="left-part__container">
+                    <p>OMV — это решение видеораспознавания с интеллектуальными модулями. Собственная разработка иновационной Российской лаборатории OmegaLab</p>
+                </div>
+            </div>
+            <div class="right-part">
+                <div class="white-screen">
+                    <div class="white-screen__container">
+                        <p>Решение OMV представляет собой универсальную платформу для видеонаблюдения, с возможностью встраивания «умных» модулей видеоанализа и позволяющие
+                            анализировать широкий ряд ситуаций в автоматическом режиме</p>
+                    </div>
+
+                </div>
+                <div class="dark-screen">
+                    <div class="dark-screen__container">
+                        <p>Данная система, является готовым продуктом, который уже активно внедряется в различных команиях. Дополнительно, имеется возможность разработки
+                            индивидуальных моделей и функций платформы, для решения более узкоспециализированных задач</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="desktop-left">ВОЗМОЖНОСТИ <br> МОДУЛЕЙ</h2>
+        <img class="dotted-image mobile-only" src="./assets/images/eye.svg" alt="">
+        <div class="modules-powers" style="margin-top: 50px">
+            <div class="powers-list">
+                <div class="card">
+                    Распознавание лиц
+                </div>
+                <div class="card">
+                    Детекция объекта в запрещенной зоне
+                </div>
+                <div class="card">
+                    Обнаружение оставленных предметов
+                </div>
+                <div class="card">
+                    Определение наличия униформы и спец.одежды
+                </div>
+                <div class="card">
+                    Детектор движений
+                </div>
+                <div class="card">
+                    Подсчет людей или объектов в кадре
+                </div>
+                <div class="card">
+                    Определение заданного объекта
+                </div>
+                <div class="card">
+                    Обнаружение и определение типа ТС и распознавание гос.номера
+                </div>
+                <div class="card">
+                    Слежение за объектом с разных камер
+                </div>
+                <div class="card">
+                    Определение скопления людей и агрессивного поведения
+                </div>
+                <div class="card">
+                    Анализ поведения покупателей и сбор потребительской статистики
+                </div>
+                <div class="card">
+                    Детекция движения в запрещенном направлении
+                </div>
+                <div class="card">
+                    Классификация типов объектов
+                </div>
+                <div class="card">
+                    Работа при слабом освещении
+                </div>
+                <div class="card" style="opacity: 0;"></div>
+            </div>
+        </div>
+        <div class="btn-learn-more modules-powers-btn">ПОДРОБНЕЕ</div>
+        <div class="platform-powers">
+            <h2 class="desktop-left" style="margin-bottom: 35px;">ВОЗМОЖНОСТИ <br> ПЛАТФОРМЫ</h2>
+            <img class="dotted-image mobile-only" src="./assets/images/compas.svg" alt="">
+            <div class="powers-list">
+                <div class="card">
+                    Использование баз данных для хранения информации
+                </div>
+                <div class="card">
+                    Хранение видеороликов заданный период времени
+                </div>
+                <div class="card">
+                    Отдельное хранение логов с фото и временем хранения
+                </div>
+                <div class="card">
+                    Индивидуальная настройка функционала и параметров для каждой камеры в системе
+                </div>
+                <div class="card">
+                    Параллельная работа с несколькими видеокамерами
+                </div>
+                <div class="card">
+                    Информирование пользователя в случае нарушений
+                </div>
+                <div class="card">Гибкая настройка параметров модулей и легкое внесение объектов для распознавания</div>
+                <div class="card">Интеграция с мобильными устройствами и удаленными ПК</div>
+                <div class="card" style="opacity: 0;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--<div class="section-form"  style="position:absolute;top:0; left: 0; width: 500px; height: 400px; background: white; padding: 100px;">-->
+<!--    <form action="" method="GET" >-->
+<!--        <input type="text" name="user_name">-->
+<!--        <input type="text" name="user_phone">-->
+<!--        <input type="text" name="user_email">-->
+<!--        <button type="submit">Отправить</button>-->
+<!--    </form>-->
+<!--</div>-->
+
+
+<div class="section-industry" id="section-industry">
+    <div class="container">
+        <div class="head-container">
+            <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
+            <img class="head-container__dotts d-head-container__dotts mobile-only" src="" alt="">
+            <h2 class="mobile-only">ИНДУСТРИИ</h2>
+            <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
+            <img class="head-container__dotts d-head-container__dotts mobile-only" src="" alt="">
+        </div>
+        <h2 style="display: none;" class="h2-desktop h2Industry">ИНДУСТРИИ</h2>
+        <div class="products-list">
+
+            <div class="product product1"><a href="usage-prom-and-building.html" >
+                <div class="bar"><p>Промышленность и строительство</p></div>
+            </a>
+            </div>
+            <div class="product product2"><a href="usage-safety.html" >
+                <div class="bar"><p>Общественная безопасность</p></div>
+            </a>
+            </div>
+            <div class="product product3"><a href="usage-educational-houses.html" >
+                <div class="bar"><p>Учебные заведения</p></div>
+            </a>
+            </div>
+            <div class="product product4"><a href="usage-events.html" >
+                <div class="bar"><p>Мероприятия</p></div>
+            </a>
+            </div>
+            <div class="product product5"><a href="usage-hotels.html" >
+                <div class="bar"><p>Гостиничный бизнес</p></div>
+            </a>
+            </div>
+            <div class="product product6"><a href="usage-smart-house.html" >
+                <div class="bar"><p>Умный дом</p></div>
+            </a>
+            </div>
+            <div class="product product7"><a href="usage-buisness.html" >
+                <div class="bar"><p>Бизнес персонал</p></div>
+            </a>
+            </div>
+            <div class="product product8"><a href="usage-smart-city.html" >
+                <div class="bar"><p>Умный город</p></div>
+            </a>
+            </div>
+            <div class="product product9"><a href="usage-retail.html" >
+                <div class="bar"><p>Ритейл</p></div>
+            </a>
+            </div>
+            <div class="product ">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="section-intagration">
+    <h2 style="display: none;" class="h2-desktop h2Integration">ИНТЕГРАЦИЯ</h2>
+    <div class="container">
+        <div class="head-container">
+            <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
+            <img class="head-container__dotts d-head-container__dotts " src="./assets/images/Точки.svg" alt="">
+            <h2 class="mobile-only">ИНТЕГРАЦИЯ</h2>
+            <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
+            <img class="head-container__dotts d-head-container__dotts " src="./assets/images/Точки.svg" alt="">
+        </div>
+        <div class="products-list">
+            <div class="product product10"><a href="">
+                <div class="bar"><p>Системы видеонаблюдения</p></div>
+            </a>
+            </div>
+            <div class="product product11"><a href="">
+                <div class="bar"><p>Охранно-пожарные системы</p></div>
+            </a>
+            </div>
+            <div class="product product12"><a href="">
+                <div class="bar"><p>Замковые системы</p></div>
+            </a>
+            </div>
+            <div class="product product13"><a href="">
+                <div class="bar"><p>РТУ</p></div>
+            </a>
+            </div>
+            <div class="product product14"><a href="">
+                <div class="bar"><p>СКУД</p></div>
+            </a>
+            </div>
+            <div class="product product15"><a href="">
+                <div class="bar"><p>Химико-биологические детекторы</p></div>
+            </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="section-possibilities">
+    <div class="container">
+        <div class="head-container">
+            <img class="head-container__dotts m-head-container__dotts mobile-only " src="./assets/images/dotts.svg" alt="">
+            <img class="head-container__dotts d-head-container__dotts mobile-only" src="" alt="">
+            <h2 class="while-no-empty mobile-only">ВОЗМОЖНОСТИ</h2>
+            <img class="head-container__dotts m-head-container__dotts mobile-only  " src="./assets/images/dotts.svg" alt="">
+            <img class="head-container__dotts d-head-container__dotts mobile-only" src="" alt="">
+        </div>
+        <h2 style="display: none" class="h2Possibilities h2-desktop">ВОЗМОЖНОСТИ</h2>
+
+        <img  class="possibilities-img mobile-only" src="./assets/images/possibilities.jpg" alt="">
+        <img style="display: none" class="possibilities-img posImgDesc" src="./assets/images/2pos.jpg" alt="">
+        <div class="possibilities-list">
+            <div class="possibilities-list__container">
+                <p>Детектирование оставленных предметов</p>
+                <div class="green-square"></div>
+                <p>Индентификация лиц</p>
+                <div class="green-square"></div>
+                <p>Детектирование периметра</p>
+                <div class="green-square"></div>
+                <p>Подсчет автотранспорта</p>
+            </div>
+        </div>
+        <div class="btn-learn-more possibilities-btn">ПОДРОБНЕЕ</div>
+    </div>
+</div>
+    <div class="container">
+        <h2 style="display: none" class="h2Portfolio h2-desktop">ПОРТФОЛИО</h2>
+
+        <div class="head-container">
+
+            <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
+            <img class="head-container__dotts d-head-container__dotts mobile-only" src="" alt="">
+            <h2 class="while-no-empty">ПОРТФОЛИО</h2>
+            <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
+            <img class="head-container__dotts d-head-container__dotts mobile-only" src="" alt="">
+
+        </div>
+        <div style="position: relative" class="section-portfolio">
+
+        <div class="left-part">
+            <div class="video">
+                <video poster="./assets/images/cars.jpg" width="100%" controls="controls">
+                    <source src="./assets/images/videoplayback.mp4">
+                </video>
+            </div>
+            <img src="./assets/images/arrow-down.png" alt="" class="arrow-down">
+            <div class=" download-additional-materials"> СКАЧАТЬ ДОПОЛНИТЕЛЬНЫЕ МАТЕИАЛЫ</div>
+        </div>
+        <div class="right-part">
+
+            <p>НАШИ ЗАКАЗЧИКИ</p>
+            <div class="right-part__image-container">
+                <img src="./assets/images/huawei.png" alt="">
+                <img src="./assets/images/huawei.png" alt="">
+                <img src="./assets/images/huawei.png" alt="">
+                <img src="./assets/images/huawei.png" alt="">
+                <br>
+                <img src="./assets/images/huawei.png" alt="">
+                <img src="./assets/images/huawei.png" alt="">
+                <img src="./assets/images/huawei.png" alt="">
+                <img src="./assets/images/huawei.png" alt="">
+            </div>
+        </div>
+            <img class="dottsportfolio" style="position: absolute; top: 400px; right: -30px; margin-top: 50px; width: 40%" src="../assets/images/points.svg">
+    </div>
+</div>
+
+
+
+
+
+<div class="section-contacts" id="contacts">
+    <div class="head-container">
+        <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
+        <img class="head-container__dotts d-head-container__dotts " src="./assets/images/Точки.svg" alt="">
+        <h2 class="while-no-empty mobile-only">КОНТАКТЫ</h2>
+        <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
+        <img class="head-container__dotts d-head-container__dotts " src="./assets/images/Точки.svg" alt="">
+    </div>
+    <div class="basement">
+        <h2 style="display: none" class="h2Contacts h2-desktop">КОНТАКТЫ</h2>
+        <div class="image-part">
+            <img class="mobile-only" src="./assets/images/footer-image.jpg" alt="">
+            <img class="footerImgDesc" style="display: none" src="./assets/images/1con.jpg" alt="">
+        </div>
+        <div class="footer-part">
+
+
+
+            <div class="left-part">
+                <div class="contact">
+                    <p>Руководитель проекта
+                        <br>
+                        <a href="">soka@gkomega.ru</a>
+                        <br>
+                        <a href="">+7 (921) 913-26-69</a>
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>Технический директор
+                        <br>
+                        <a href="">kobak@gkomega.ru</a>
+                        <br>
+                        <a href="">+7 (904) 637-01-37</a>
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>191124, Санкт-Петербург, <br> Синопская набережная, <br class="-display-block"> дом 52</p>
+                </div>
+                <div class="social-networks-links">
+                   <!-- <a href=""><img src="./assets/images/vk.svg" alt=""></a>-->
+                    <a href=""><img src="./assets/images/instagram.svg" alt=""></a>
+                    <a href=""><img src="./assets/images/twitter.svg" alt=""></a>
+                    <a href=""><img src="./assets/images/youtube.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="right-part">
+                <p class="green-sign">НАШИ ПАРТНЕРЫ</p>
+                <div class="green-square-wrapper">
+                    <div class="green-square"></div>
+                    <p>Группа компаний <br> «ОМЕГА» </p>
+                </div>
+                <div class="green-square-wrapper">
+                    <div class="green-square"></div>
+                    <p>Донской <br> Государственный <br> Технический<br> Университет</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</div>
+<script>
+
+    let firstSlide =  document.getElementsByClassName('mobile-background')[0];
+    let secondSlide =  document.getElementsByClassName('mobile-background')[1];
+    let thirdSlide =  document.getElementsByClassName('mobile-background')[2];
+    let fourthSlide =  document.getElementsByClassName('mobile-background')[3];
+    let fifthSlide =  document.getElementsByClassName('mobile-background')[4];
+    let sixthSlide =  document.getElementsByClassName('mobile-background')[5];
+    let seventhSlide =  document.getElementsByClassName('mobile-background')[6];
+
+
+
+
+
+    document.getElementsByClassName('particle')[0].classList.add('-current-particle');
+    firstSlide.classList.add('-display-block');
+    let num = 0;
+
+    function next() {
+        document.getElementsByClassName('particle')[num].classList.remove('-current-particle');
+        num++;
+        if (num>6) {
+            num = 0;
+        }
+        switch (num) {
+            case 0: seventhSlide.classList.remove('-display-block');
+                firstSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ВИДЕОАНАЛИТИКА OMV</h1>'
+                break;
+            case 1: firstSlide.classList.remove('-display-block');
+                secondSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ИДЕНТИФИКАЦИЯ ЛИЦ</h1>'
+                break;
+            case 2: secondSlide.classList.remove('-display-block');
+                thirdSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1 style="word-wrap: normal;">ДЕТЕКТИРОВАНИЕ ОБЪЕКТОВ</h1>'
+                break;
+            case 3: thirdSlide.classList.remove('-display-block');
+                fourthSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ЗАПРЕЩЕННЫЕ ЗОНЫ</h1>'
+                break;
+            case 4: fourthSlide.classList.remove('-display-block');
+                fifthSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ДЕТЕКТИРОВАНИЕ ТРАНСТПОРТА</h1>'
+                break;
+            case 5: fifthSlide.classList.remove('-display-block');
+                sixthSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ИДЕНТИФИКАЦИЯ НОМЕРА</h1>'
+                break;
+            case 6:sixthSlide.classList.remove('-display-block');
+                seventhSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ОБЕСПЕЧЕНИЕ БЕЗОПАСТНОСТИ</h1>'
+                break;
+        }
+    }
+    function prev() {
+        document.getElementsByClassName('particle')[num].classList.remove('-current-particle');
+        num--;
+        if (num<0) {
+            num = 6;
+        }
+        switch (num) {
+            case 0: secondSlide.classList.remove('-display-block');
+                firstSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ВИДЕОАНАЛИТИКА OMV</h1>'
+                break;
+            case 1: thirdSlide.classList.remove('-display-block');
+                secondSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ИДЕНТИФИКАЦИЯ ЛИЦ</h1>'
+                break;
+            case 2: fourthSlide.classList.remove('-display-block');
+                thirdSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ДЕТЕКТИРОВАНИЕ ОБЪЕКТОВ</h1>'
+                break;
+            case 3:fifthSlide.classList.remove('-display-block');
+                fourthSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ЗАПРЕЩЕННЫЕ ЗОНЫ</h1>'
+                break;
+            case 4: sixthSlide.classList.remove('-display-block');
+                fifthSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ДЕТЕКТИРОВАНИЕ ТРАНСТПОРТА</h1>'
+                break;
+            case 5: seventhSlide.classList.remove('-display-block');
+                sixthSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ИДЕНТИФИКАЦИЯ НОМЕРА</h1>'
+                break;
+            case 6: firstSlide.classList.remove('-display-block');
+                seventhSlide.classList.add('-display-block');
+                document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+                document.getElementsByClassName('main-name')[0].innerHTML = '<h1>ОБЕСПЕЧЕНИЕ БЕЗОПАСТНОСТИ</h1>'
+                break;
+        }
+    }
+
+
+
+
+    function particleClick() {
+        document.getElementsByClassName('-gidisplay-block')[0].classList.remove('-display-block');
+        document.getElementsByClassName('-current-particle')[0].classList.remove('-current-particle');
+        slides[num].classList.add('-display-block');
+        document.getElementsByClassName('particle')[num].classList.add('-current-particle');
+    }
+    let slides = [firstSlide, secondSlide, thirdSlide, fourthSlide, fifthSlide, sixthSlide, seventhSlide];
+    setInterval(next, 7000);
+
+
+</script>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="./assets/scripts/modal.js"></script>
+<script src="./assets/scripts/script.js"></script>
+</body>
+</html>
